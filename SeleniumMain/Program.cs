@@ -14,6 +14,7 @@ namespace SeleniumMain
             string googleUrl = "https://www.google.com/";
 
             //ClickPluralsightImageExample.DoSearch(driver, googleUrl);
+            int i;
             HTMLExample.SelectRadioButtons(driver, webURL);
             HTMLExample.SelectOptionDDL(driver, webURL);
             HTMLExample.SelectOptionDDLUsingSupport(driver, webURL);
